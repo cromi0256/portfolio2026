@@ -1,0 +1,6 @@
+{
+  "name": "데이터과학자 김영환 포트폴리오",
+  "description": "AI 시대에서의 데이터과학자 개발자 포트폴리오 및 자기소개서",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

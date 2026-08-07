@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #10141a;
+    color: #dfe2eb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@media print {
+  body {
+    background-color: #10141a !important;
+    color: #dfe2eb !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  header, button, a[href^="mailto:"] {
+    /* Preserve layout for print */
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
