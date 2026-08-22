@@ -33,6 +33,12 @@ export default function Navbar() {
             Home
           </button>
           <button
+            onClick={() => scrollToSection('vision')}
+            className="text-sm font-medium text-[#c1c6d6] hover:text-[#acc7ff] transition-colors cursor-pointer"
+          >
+            Vision
+          </button>
+          <button
             onClick={() => scrollToSection('skills')}
             className="text-sm font-medium text-[#c1c6d6] hover:text-[#acc7ff] transition-colors cursor-pointer"
           >

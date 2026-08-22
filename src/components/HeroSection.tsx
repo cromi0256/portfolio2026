@@ -1,4 +1,4 @@
-import BrainLogo from './BrainLogo';
+import profileImg from '../assets/profile.png';
 
 interface HeroSectionProps {
   onDownloadPdf: () => void;
@@ -14,7 +14,13 @@ export default function HeroSection({ onDownloadPdf, isDownloading }: HeroSectio
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           {/* Left: Graphic Card */}
           <div className="flex-shrink-0 w-full md:w-72 flex justify-center">
-            <BrainLogo className="w-52 h-52 md:w-56 md:h-56" />
+            <div className="w-52 h-52 md:w-60 md:h-60 rounded-2xl bg-[#10141a]/80 border border-[#262a31] p-3 flex items-center justify-center shadow-lg group hover:border-[#acc7ff]/50 transition-all duration-300">
+              <img
+                src={profileImg}
+                alt="AI Data Scientist Profile"
+                className="w-full h-full object-contain rounded-xl"
+              />
+            </div>
           </div>
 
           {/* Right: Content */}

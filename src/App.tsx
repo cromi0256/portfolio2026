@@ -3,6 +3,7 @@ import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
+import VisionSection from './components/VisionSection';
 import ExpertiseSection from './components/ExpertiseSection';
 import ContactSection from './components/ContactSection';
 
@@ -68,16 +69,19 @@ export default function App() {
 
       {/* Main Content Area */}
       <main id="portfolio-page" className="flex-1 max-w-[1024px] w-full mx-auto px-6 py-6 space-y-12">
-        {/* Section 1: Hero */}
+        {/* Section: Hero */}
         <HeroSection
           onDownloadPdf={handleDownloadPdf}
           isDownloading={isDownloading}
         />
 
-        {/* Section 2: Expertise */}
+        {/* Section: Vision */}
+        <VisionSection />
+
+        {/* Section: Expertise / Skills */}
         <ExpertiseSection />
 
-        {/* Section 3: Contact */}
+        {/* Section: Contact */}
         <ContactSection />
       </main>
     </div>
