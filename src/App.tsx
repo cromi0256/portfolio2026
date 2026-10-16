@@ -2,9 +2,7 @@ import { useState } from 'react';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import VisionSection from './components/VisionSection';
-import ExpertiseSection from './components/ExpertiseSection';
+import ProjectSection from './components/ProjectSection';
 import ContactSection from './components/ContactSection';
 
 export default function App() {
@@ -69,17 +67,11 @@ export default function App() {
 
       {/* Main Content Area */}
       <main id="portfolio-page" className="flex-1 max-w-[1024px] w-full mx-auto px-6 py-6 space-y-12">
-        {/* Section: Hero */}
-        <HeroSection
+        {/* Section: Project 01 (Replaces Hero, Vision, Expertise) */}
+        <ProjectSection
           onDownloadPdf={handleDownloadPdf}
           isDownloading={isDownloading}
         />
-
-        {/* Section: Vision */}
-        <VisionSection />
-
-        {/* Section: Expertise / Skills */}
-        <ExpertiseSection />
 
         {/* Section: Contact */}
         <ContactSection />

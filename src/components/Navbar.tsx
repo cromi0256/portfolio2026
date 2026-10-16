@@ -27,22 +27,10 @@ export default function Navbar() {
         {/* Links */}
         <nav className="flex items-center gap-8">
           <button
-            onClick={() => scrollToSection('home')}
+            onClick={() => scrollToSection('project')}
             className="text-sm font-medium text-[#c1c6d6] hover:text-[#acc7ff] transition-colors cursor-pointer"
           >
-            Home
-          </button>
-          <button
-            onClick={() => scrollToSection('vision')}
-            className="text-sm font-medium text-[#c1c6d6] hover:text-[#acc7ff] transition-colors cursor-pointer"
-          >
-            Vision
-          </button>
-          <button
-            onClick={() => scrollToSection('skills')}
-            className="text-sm font-medium text-[#c1c6d6] hover:text-[#acc7ff] transition-colors cursor-pointer"
-          >
-            Skills
+            Project 01
           </button>
           <button
             onClick={() => scrollToSection('contact')}
