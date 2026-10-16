@@ -22,7 +22,7 @@ export default function VisionSection() {
     {
       icon: ShieldCheck,
       title: '데이터 거버넌스',
-      desc: '데이터 표준화와 체계적인 지식 자산화',
+      desc: '데이터 프라이버시와 체계적인 지식 자산화',
     },
   ];
 
@@ -46,7 +46,7 @@ export default function VisionSection() {
       {/* Main Vision Card */}
       <div className="bg-[#181c22] border border-[#262a31] rounded-2xl p-8 md:p-10 space-y-8 shadow-xl">
         <p className="text-[#c1c6d6] text-base md:text-[17px] leading-relaxed font-normal">
-          모델 개발은 물론 데이터 엔지니어링과 인프라 관리, 그리고 데이터 거버넌스 까지 기본 개념에 충실합니다. 이를 통해 조직 전반의 팀이 AI 솔루션을 사용할 수 있도록 지원합니다. 아래의 링크에 포함된 기술을 사용하여 확장성과 성능이 우수한 솔루션을 설계합니다.
+          가장 중요한 것은 운영능력. 인프라 구성과 배포 설정까지 모델은 지속적으로 학습하고 관리할 수 있어야 합니다. 이를 통해 발견한 인사이트와 문제점을 빠르게 공유하며 조직의 혁신에 기여합니다. 사용하는 기술이 구식이 되지않도록 최신의 뉴스를 접하며 계속 공부해나갑니다.
         </p>
 
         {/* 4 Core Pillars */}
